@@ -4,6 +4,7 @@ import InputField from "./components/InputField";
 import { todo } from "./utils/model";
 import TodoList from "./components/TodoList";
 import { defaultData } from "./utils/default";
+import Footer from "./components/Footer";
 
 const App: React.FC = () => {
   const [todo, setTodo] = useState<string>("");
@@ -31,6 +32,7 @@ const App: React.FC = () => {
       <InputField todo={todo} setTodo={setTodo} handleAddTodo={handleAddTodo} />
 
       <TodoList todos={todos} setTodos={setTodos} />
+      <Footer />
     </div>
   );
 };
