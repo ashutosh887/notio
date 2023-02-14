@@ -1,0 +1,2 @@
+# notio
+Notes tracking app! 🥳🚀
